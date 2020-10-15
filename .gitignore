@@ -1,4 +1,6 @@
 atlite/
+weather_station/data/Weather_2020.php.json
+weather_station/weather_data_2020.csv
 SOLAR_ENERGY_PROJECT_2_INSTRUCTIONS.odt
 SOLAR_ENERGY_project2_solution.py
 timeseries.csv
