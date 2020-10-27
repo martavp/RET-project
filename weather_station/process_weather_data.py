@@ -15,7 +15,7 @@ import numpy as np
 
 weather_df = pd.DataFrame(
              index=pd.Series(
-                data = np.arange(0,8760*3),
+                data = np.arange(0,8760*5),
                 name = 'index'),
              columns = pd.Series(
                 data = ['TimeStamp', 
@@ -27,7 +27,7 @@ weather_df = pd.DataFrame(
                 name = 'names')
              )
             
-with open('data/Weather_2020.php.json') as json_file:
+with open('data/Weather.php.json') as json_file:
     data = json.load(json_file)
     for i,p in enumerate(data):
         weather_df['TimeStamp'][i]=p['TimeStamp']
@@ -39,4 +39,4 @@ with open('data/Weather_2020.php.json') as json_file:
 
 weather_df.set_index('TimeStamp', inplace=True)       
 #save dataframe with weather information
-weather_df.to_csv('weather_data_2020.csv', sep=';')        
+weather_df.to_csv('weather_data.csv', sep=';')        

@@ -5,3 +5,7 @@ SOLAR_ENERGY_PROJECT_2_INSTRUCTIONS.odt
 SOLAR_ENERGY_project2_solution.py
 timeseries.csv
 project_SOLAR_ENERGY.png
+TODO.txt
+pv_data/api.navitas.app.json
+pv_data/process_pv_data.py
+pv_data/test_pv_data.csv
