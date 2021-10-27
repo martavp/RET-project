@@ -9,3 +9,4 @@ TODO.txt
 pv_data/api.navitas.app.json
 pv_data/process_pv_data.py
 pv_data/test_pv_data.csv
+additional_data/
